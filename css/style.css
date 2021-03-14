@@ -1,0 +1,309 @@
+/* Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,600;1,700;1,800&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Poppins';
+}
+
+.disclaimer {
+    display: flex;
+    color: whitesmoke;
+    margin-top: -20px;
+    justify-content: center;
+    background-color: rgb(255, 110, 57);
+    margin-bottom: 35px;
+}
+
+header, section {
+    overflow-x: hidden;
+}
+
+.navbar .container-fluid {
+    color: white;
+}
+
+.navbar-brand {
+    color: black;
+    font-weight: bolder;
+}
+
+.nav-link:hover {
+    color: orangered;
+}
+
+header {
+    padding-top: 20px;
+}
+
+header .navbar-item:last-child {
+    padding-right: 6rem;
+}
+
+header .navbar-brand {
+    padding-left: 6.5rem;
+}
+
+.navbar-brand:hover {
+    color: orangered;
+}
+
+.nav-link {
+    color: black;
+}
+
+.hero-section {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    margin: 0rem 1rem;
+}
+
+.hero-section .hh1 {
+    font-weight: 700;
+}
+
+.hero-section .hp1 {
+    font-size: 1.5rem;
+}
+
+.hero-section .hb1 {
+    margin-left: -485px;
+    background-color: orangered;
+    color: white;
+}
+
+.hero-section .hb1:hover {
+    background-color: black;
+}
+
+.hero-section .col-md-7 {
+    padding-top: 5.5rem;
+}
+
+.hero-section {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.model-image {
+    width: 100%;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.panel {
+    padding-left: 30px;
+}
+
+.section-1 .row .col-md-6:last-child {
+    position: relative;
+}
+
+.section-1 .row .col-md-6 img {
+    height: 32rem;
+}
+
+.section-1 .row .col-md-6 .panel {
+    font-size: 1rem;
+    background: white;
+    margin: 5.5rem 0rem 0rem -6rem;
+    padding: 0 40px 40px 40px;
+    border-radius: 3px;
+    box-shadow: 0 4px 15px 0 rgba(00, 00, 00, 0.3);
+}
+
+.section-1 .row .col-md-6 .panel h1 {
+    margin-bottom: 20px;
+}
+
+.box {
+    margin: 30px;
+}
+
+.section-features {
+    margin: 4rem 8rem;
+}
+
+.more-btn {
+    color: white;
+    background: orangered;
+}
+
+.more-btn:hover {
+    background: black;
+    color: white;
+}
+
+i {
+    color: orangered;
+}
+
+.section-3 {
+    padding: 5rem 6rem;
+    background: orangered;
+    color: white;
+}
+
+.section-3 i {
+    margin-right: 15px;
+}
+
+.section-3 .text {
+    color: orangered;
+}
+
+.section-4 {
+    margin: 4rem 6rem;
+}
+
+footer {
+    padding: 4rem 6rem;
+    color: white;
+    background: #181818;
+}
+
+footer .social-icons i {
+    margin-right: 10px;
+}
+
+/* device - 1024px */
+
+@media only screen and (max-width: 1024px) {
+    header .navbar-brand {
+        padding-left: 4rem;
+    }
+    header .row .col-md-5 img {
+        width: 20rem;
+    }
+    header .navbar-brand {
+        padding-left: 3.5rem;
+    }
+    header .row .col-md-7 .hb1 {
+        margin-left: -380px;
+    }
+    .section-1 .row .col-md-6 img {
+        height: 30rem;
+        margin-left: 1.5rem;
+    }
+    .section-1 .row .col-md-6 .panel {
+        margin: 2rem 0 0 -6rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    header .row .col-md-5 img {
+        width: 18rem;
+        margin-right: 23px;
+    }
+    .hero-section .col-md-7 {
+        padding-top: 2.5rem;
+    }
+    header .row .col-md-7 .hb1 {
+        margin-left: -250px;
+    }
+    .section-1 .row .col-md-6 img {
+        height: 25rem;
+    }
+    .section-1 .row .col-md-6 .panel {
+        font-size: 0.7rem;
+    }
+    .section-features {
+        margin: 4rem 2.5rem;
+    }
+    .section-4 {
+        margin: 4rem 2.5rem;
+    }
+    footer {
+        padding: 4rem 2rem;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    header .navbar-brand {
+        padding-left: 1.5rem;
+    }
+    .hero-section .col-md-7 {
+        padding: 0px;
+    }
+    .hero-section .hh1 {
+        font-size: 2.5rem;
+    }
+    .hero-section .hp1 {
+        font-size: 1rem;
+    }
+    header .row .col-md-5 img {
+        margin-top: 2.5rem;
+    }
+    .section-1 .row .col-md-6 img {
+        margin: 0px;
+        padding: 0px;
+        height: 20rem;
+    }
+    .section-1 .row .col-md-6 .panel {
+        margin: 0px;
+        margin-top: 15px;
+        box-shadow: none;
+        padding: 0px;
+    }
+    .section-features {
+        margin: 2rem 2rem;
+    }
+    .section-features h2 {
+        font-size: 2rem;
+        margin: 0px;
+        padding: 0px;
+    }
+    .section-features p {
+        font-size: 1rem;
+    }
+    .section-3 {
+        padding: 3rem 2rem;
+    }
+    .section-3 h1 {
+        font-size: 2rem;
+    }
+    .plateform .col-md-6 .android {
+        margin-bottom: 1rem;
+    }
+    .section-4 h1 {
+        font-size: 2rem;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    header .navbar-brand {
+        padding-left: 1.5rem;
+    }
+    header .row .col-md-7 .hb1 {
+        margin-left: -200px;
+    }
+    .section-1 .row .col-md-6 img {
+        height: 20rem;
+    }
+    .section-4 {
+        margin: 4rem 1.5rem;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    header .navbar-brand {
+        padding-left: 1.5rem;
+    }
+    header .row .col-md-7 .hb1 {
+        margin-left: -150px;
+    }
+    .section-1 .row .col-md-6 img {
+        height: 20rem;
+    }
+    .section-4 {
+        margin: 4rem 1.5rem;
+    }
+}
